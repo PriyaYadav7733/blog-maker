@@ -5,6 +5,11 @@ declare global {
       DATABASE_URI: string
       NEXT_PUBLIC_SERVER_URL: string
       VERCEL_PROJECT_PRODUCTION_URL: string
+      S3_BUCKET:sring
+      S3_ACCESS_KEY_ID:sring
+      S3_SECRET_ACCESS_KEY:sring
+      S3_REGION:sring
+      S3_ENDPOINT:sring
     }
   }
 }
