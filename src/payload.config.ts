@@ -1,7 +1,5 @@
 // storage-adapter-import-placeholder
 import { postgresAdapter } from '@payloadcms/db-postgres'
-import { uploadthingStorage } from '@payloadcms/storage-uploadthing';
-import {vercelBlobStorage} from '@payloadcms/storage-vercel-blob'
 
 import sharp from 'sharp' // sharp-import
 import path from 'path'
